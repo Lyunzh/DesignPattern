@@ -4,7 +4,7 @@ import org.se.memento.Order;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-
+//Refactored with facade pattern
 public class PDFGeneratorFacade {
     private Map<String, PDFGenerator> generators;
     

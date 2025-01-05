@@ -6,7 +6,7 @@ import org.se.state.NoDiscountState;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Refactored with momento\state pattern
 public class Order {
     private List<Food> foods;
     private DiscountState discountState;

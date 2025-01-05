@@ -1,5 +1,5 @@
 package org.se.food.interpreter;
-
+//Refactored with interpreter pattern
 public interface SpicinessExpression
 {
     void interpret(Spiciness spiciness);

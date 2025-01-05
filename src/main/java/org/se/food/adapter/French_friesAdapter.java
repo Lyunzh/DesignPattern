@@ -4,7 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.jsoup.nodes.Element;
 import org.se.food.Food;
 import org.se.food.French_fries;
-
+//Refactored with Adapter pattern
 public class French_friesAdapter extends Food {
 
     public French_fries fries;

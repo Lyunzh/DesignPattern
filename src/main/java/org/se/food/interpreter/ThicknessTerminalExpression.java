@@ -1,5 +1,5 @@
 package org.se.food.interpreter;
-
+//Refactored with interpreter pattern
 public class ThicknessTerminalExpression implements ThicknessExpression{
     private String key;
     private int value;

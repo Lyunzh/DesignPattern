@@ -1,5 +1,5 @@
 package org.se.food.interpreter;
-
+//Refactored with interpreter pattern
 public class SpicinessTerminalExpression implements SpicinessExpression {
 
     private String key;

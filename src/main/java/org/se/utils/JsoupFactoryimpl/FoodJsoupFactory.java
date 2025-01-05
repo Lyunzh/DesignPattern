@@ -6,7 +6,7 @@ import org.se.utils.JsoupFactory;
 
 import java.io.File;
 import java.io.IOException;
-
+//Refactored with Factory pattern
 public class FoodJsoupFactory implements JsoupFactory
 {
     private Document document;

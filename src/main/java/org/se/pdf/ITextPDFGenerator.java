@@ -8,7 +8,7 @@ import org.se.memento.Order;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
-
+//Refactored with facade pattern
 public class ITextPDFGenerator implements PDFGenerator {
     @Override
     public void generateOrderReport(Order order, String outputPath) throws IOException {

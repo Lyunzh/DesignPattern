@@ -1,7 +1,7 @@
 package org.se.food.interpreter;
 
 import java.beans.Expression;
-
+//Refactored with interpreter pattern
 public class SpicinessNonterminalExpression implements SpicinessExpression {
     private SpicinessExpression[] expressions;
 

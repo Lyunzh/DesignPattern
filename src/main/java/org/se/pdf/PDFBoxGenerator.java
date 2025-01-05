@@ -10,7 +10,7 @@ import org.se.memento.Order;
 
 import java.io.IOException;
 import java.util.List;
-
+//Refactored with Facade pattern
 public class PDFBoxGenerator implements PDFGenerator {
     @Override
     public void generateOrderReport(Order order, String outputPath) throws IOException {

@@ -3,7 +3,7 @@ package org.se.food.adapter;
 import org.jsoup.nodes.Element;
 import org.se.food.Food;
 import org.se.food.Fried_chicken;
-
+//Refactored with Adapter pattern
 public class Fried_chickenAdapter extends Food {
 
 
